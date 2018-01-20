@@ -72,7 +72,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # Get the latest master branch and submodule(s)
-RUN git clone --recursive https://github.com/ZoneMinder/ZoneMinder
+RUN git clone --recursive -b storageareas https://github.com/connortechnology/ZoneMinder
 
 # Change into the ZoneMinder directory
 WORKDIR /ZoneMinder
