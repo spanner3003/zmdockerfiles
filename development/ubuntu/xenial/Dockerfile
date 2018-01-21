@@ -42,6 +42,7 @@ RUN apt-get update \
     libssl-dev \
     libswscale-dev \
     libsys-cpu-perl \
+    libsys-cpuload-perl \
     libsys-meminfo-perl \
     libsys-mmap-perl \
     libtheora-dev \
